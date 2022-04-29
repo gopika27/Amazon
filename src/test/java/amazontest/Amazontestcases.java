@@ -40,7 +40,7 @@ public class Amazontestcases extends Baseclass
 	driver.get("https://www.amazon.in/");
 	driver.manage().window().maximize();
 	WebElement searchbox=driver.findElement(By.id("twotabsearchtextbox"));
-	searchbox.sendKeys("iphone");
+	searchbox.sendKeys("samsung");
 	driver.findElement(By.id("nav-search-submit-button")).submit();
 	List<WebElement> productnames=driver.findElements(By.xpath("//div[@class='sg-col-inner']//span[@class='a-size-medium a-color-base a-text-normal']"));
 	for(int i=0;i<productnames.size();i++)
