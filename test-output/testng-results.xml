@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-29T07:18:15 IST" name="Suite" finished-at="2022-04-29T07:18:28 IST" duration-ms="12889">
+    <groups>
+    </groups>
+    <test started-at="2022-04-29T07:18:15 IST" name="Test" finished-at="2022-04-29T07:18:28 IST" duration-ms="12889">
+      <class name="amazontest.Amazontestcases">
+        <test-method is-config="true" signature="browser()[pri:0, instance:amazontest.Amazontestcases@21e360a]" started-at="2022-04-29T07:18:15 IST" name="browser" finished-at="2022-04-29T07:18:17 IST" duration-ms="2376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method signature="tc01()[pri:0, instance:amazontest.Amazontestcases@21e360a]" started-at="2022-04-29T07:18:17 IST" name="tc01" finished-at="2022-04-29T07:18:28 IST" duration-ms="10482" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01 -->
+      </class> <!-- amazontest.Amazontestcases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
